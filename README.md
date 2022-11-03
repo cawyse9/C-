@@ -1,6 +1,6 @@
 # Using C++ to Implement Efficient Algorithms in R
 
-![image](https://user-images.githubusercontent.com/29300100/199288013-98372234-47df-4f99-876d-a268f46f351e.png)
+![image](align="right" https://user-images.githubusercontent.com/29300100/199288013-98372234-47df-4f99-876d-a268f46f351e.png)
 
 ## Background
 The efficiency and speed of a function can often be optimised by defining it in C++ and calling it from R, as opposed to using available R packages or functions. 
@@ -17,4 +17,4 @@ A second function was written in C++ to calculate a random walk.  The code was i
 The Rcpp functions were superior to the R functions in terms of speed of processing. The Rcpp function coded for a moving average function was used to calculate moving average ocean temperatures in five year windows (from 1882–2017) and 30-year windows (from 1894–2004). The 30 year window smooths out variation over shorter time periods, and a 5 year window made the upward trajectory of temperature since 1920 more clear.  The 30-year window removes the effects of year-to-year changes in temperature that are of small consequence to the overall trend across the 140 year time range
 
 ## Acknowledgments
-
+This project was submitted as part of the coursework required for the module, "Programming in C++" for an a MSc (Data Analytics) course at UCD in 2022. 
