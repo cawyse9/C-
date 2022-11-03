@@ -15,7 +15,7 @@ A second function was written in C++ to calculate a random walk.  The code was i
 
 Further details of the functions are [here](https://github.com/cawyse9/Implementing-Efficent-Gradient-Descent-Algorithm-in-R-/blob/main/Code%20and%20Analysis/C_PlusPlus%20Project.pdf)  
 
-The R code used to implement the C++ functions is [here](https://github.com/cawyse9/Implementing-Efficent-Gradient-Descent-Algorithm-in-R-/blob/main/Code%20and%20Analysis/C_PlusPlus.R)
+The R code used to implement the C++ functions is [here](https://github.com/cawyse9/Implementing-Efficent-Gradient-Descent-Algorithm-in-R-/blob/main/Code%20and%20Analysis/C_PlusPlus_code.R)
 
 ## Conclusion
 The Rcpp functions were superior to the R functions in terms of speed of processing. The Rcpp function coded for a moving average function was used to calculate moving average ocean temperatures in five year windows (from 1882–2017) and 30-year windows (from 1894–2004). The 30 year window smooths out variation over shorter time periods, and a 5 year window made the upward trajectory of temperature since 1920 more clear.  The 30-year window removes the effects of year-to-year changes in temperature that are of small consequence to the overall trend across the 140 year time range
