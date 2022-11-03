@@ -1,6 +1,6 @@
 # Using C++ to Implement Efficient Algorithms in R
 
-![image](align="right" https://user-images.githubusercontent.com/29300100/199288013-98372234-47df-4f99-876d-a268f46f351e.png)
+<img align="right" src="https://user-images.githubusercontent.com/29300100/199288013-98372234-47df-4f99-876d-a268f46f351e.png" width="200">
 
 ## Background
 The efficiency and speed of a function can often be optimised by defining it in C++ and calling it from R, as opposed to using available R packages or functions. 
